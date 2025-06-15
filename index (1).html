@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan Sulthan & Sindi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fefaf5;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    .judul {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .subjudul {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .animasi {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 30px 0;
+    }
+    .figure {
+      width: 100px;
+      animation: naikTurun 3s infinite ease-in-out;
+    }
+    @keyframes naikTurun {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .audio {
+      position: absolute;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+    .ayat {
+      margin-top: 40px;
+      padding: 10px 20px;
+      background: #f1eee6;
+      border-radius: 12px;
+      font-style: italic;
+    }
+    .arabic {
+      font-size: 24px;
+      font-family: 'Scheherazade', serif;
+    }
+    .rsvp a {
+      color: blue;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="judul">Undangan Pernikahan</div>
+  <div class="subjudul">Sulthan Al Ikhlaasul A’mal & Sindi Utari</div>
+
+  <!-- Animasi Ikhwan & Akhwat -->
+  <div class="animasi">
+    <img src="https://i.ibb.co/WBfd7mJ/ikhwan.png" alt="Ikhwan" class="figure" />
+    <img src="https://i.ibb.co/kSxrQRY/akhwat.png" alt="Akhwat" class="figure" />
+  </div>
+
+  <p>Dengan memohon rahmat dan ridho Allah ﷻ, kami bermaksud menyelenggarakan walimatul ‘ursy:</p>
+
+  <h3>Sulthan Al Ikhlaasul A'mal & Sindi Utari</h3>
+  <p><strong>Sabtu, 6 September 2025</strong><br>Jam 08.00 WIB s.d. selesai</p>
+
+  <!-- Ayat Al-Qur'an -->
+  <div class="ayat">
+    <div class="arabic">قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَـٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ</div>
+    <br>
+    <div><strong>“Katakanlah kepada laki-laki yang beriman, agar mereka menahan pandangannya dan memelihara kemaluannya.”</strong></div>
+    <div>(QS. An-Nur: 30)</div>
+  </div>
+
+  <!-- RSVP via WA -->
+  <div class="rsvp" style="margin-top: 30px;">
+    <p>Silakan konfirmasi kehadiran Anda:</p>
+    <a href="https://wa.me/6281213293640" target="_blank">
+      Klik untuk RSVP via WhatsApp
+    </a>
+  </div>
+
+  <!-- Lagu YouTube autoplay hidden -->
+  <div class="audio">
+    <iframe 
+      width="0" 
+      height="0" 
+      src="https://www.youtube.com/embed/kTJczUoc26U?autoplay=1&loop=1&playlist=kTJczUoc26U"
+      title="YouTube audio"
+      frameborder="0"
+      allow="autoplay"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
